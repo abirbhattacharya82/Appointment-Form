@@ -1,0 +1,51 @@
+.Form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 400px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.37);
+  }
+  
+  .Heading {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .Label {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  .Input {
+    margin-bottom: 10px;
+  }
+  
+  .Input input {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 200px;
+  }
+  
+  .ButtonArea {
+    margin-top: 20px;
+  }
+  
+  .ButtonArea button {
+    background-color: #3498db;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .ButtonArea button:hover {
+    background-color: #2980b9;
+  }
+  
